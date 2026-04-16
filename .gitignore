@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# Model weights
+*.pt
+
+# Test results
+runs/
+kernel_meta/
+fusion_result.json
+
+# Python version
+.python-version
+
+# Lock files
+uv.lock
