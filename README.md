@@ -49,6 +49,13 @@ python3 -c "import acl;print(acl.get_soc_name())"
 
 若返回芯片型号，则安装成功。
 
+## 安装依赖
+
+```bash
+# 使用清华源加速安装
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## 运行测试
 
 CANN 安装完成后，执行以下脚本测试 NPU 环境：

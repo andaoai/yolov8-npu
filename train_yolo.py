@@ -36,4 +36,4 @@ results = model.predict("./test.jpg", device=device)
 #     r.save(filename=f"results{i}.jpg")
 
 # Export the model to ONNX format
-# success = model.export(format="onnx")
+success = model.export(format="onnx")

@@ -3,4 +3,4 @@
 source /usr/local/Ascend/cann/set_env.sh
 
 # 运行测试
-/home/ht/test/yolov8-npu/.venv/bin/python train_yolo.py
+python train_yolo.py

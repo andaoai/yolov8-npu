@@ -1,3 +1,5 @@
+# 使用清华源安装: pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
 # Core ML
 torch==2.5.1
 torch-npu==2.5.1.post1
@@ -20,6 +22,11 @@ matplotlib==3.9.4
 # Data Processing
 polars==1.36.1
 PyYAML==6.0.3
+
+# ONNX
+onnx>=1.12.0,<2.0.0
+onnxslim>=0.1.71
+onnxruntime
 
 # Utilities
 psutil==7.2.2
