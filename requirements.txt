@@ -1,0 +1,26 @@
+# Core ML
+torch==2.5.1
+torch-npu==2.5.1.post1
+torchvision==0.20.1
+ultralytics==8.4.38
+ultralytics-thop==2.0.18
+
+# Scientific Computing
+numpy==2.0.2
+scipy==1.13.1
+
+# Computer Vision
+opencv-python==4.13.0.92
+opencv-python-headless==4.13.0.92
+pillow==11.3.0
+
+# Visualization
+matplotlib==3.9.4
+
+# Data Processing
+polars==1.36.1
+PyYAML==6.0.3
+
+# Utilities
+psutil==7.2.2
+requests==2.32.5
