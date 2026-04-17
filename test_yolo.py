@@ -28,7 +28,7 @@ if torch.npu.is_available():
     model = YOLO("yolov8n.pt")
     print("模型加载成功!")
 
-    test_image = "/home/ht/test/yolov8-npu/test.jpg"
+    test_image = "test.jpg"
     print(f"\n使用图片: {test_image}")
 
     # 第一次推理（预热，会编译算子）
